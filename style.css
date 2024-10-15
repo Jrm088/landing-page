@@ -4,5 +4,55 @@ body{
 
 .header-body{
     background-color:#1f2937;
-    color: white;
+    color: #f9faf8;
+}
+
+.header{
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.header-links{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content{
+font-size: 18px;
+}
+
+.button{
+    background-color: #3882f6;
+    color:#f9faf8;
+}
+
+.quote{
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    
+}
+.author{
+    color:black;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+}
+
+h2{
+   color: #1f2937;
+   font-weight: 900;
+   font-size: 36px;
+}
+
+.signup{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+footer{
+    background-color: #1f2937;
+    color:#f9faf8
 }
