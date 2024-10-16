@@ -8,7 +8,6 @@ body{
     background-color: black;
     flex-wrap: wrap;
     
-    
 }
 
 h1{
@@ -28,7 +27,7 @@ h1{
     background-color:#1f2937;
     color: #f9faf8;
     align-items: baseline;  
-    /* justify-content: space-around;   */
+
 }
 
 .header-big{
@@ -55,7 +54,6 @@ ul{
     color:#e5e7eb;
     padding-right: 280px;
    
-    
 }
 
 .content{
@@ -69,18 +67,14 @@ width: 100%;
 height:400px;
 flex-basis: 350px;
 
-
 }
 
-.body{
+.header-body{
     display: flex;
     background-color:#1f2937;
     padding-left: 280px;
-    /* padding-right: 280px; */
-padding-top: 100px;
+    padding-top: 100px;
 
-/* justify-content: space-around; */
-/* flex-wrap: wrap; */
 }
 
 img{
@@ -89,8 +83,7 @@ img{
     display: flex;
     padding-left: 170px;
     object-fit:cover;
-    /* align-items: center;
-    justify-content: center; */
+    
 }
 
 .button{
@@ -107,10 +100,51 @@ img{
     padding-bottom: 8px;
     justify-content: baseline;
    
-    
-
-   
 }
+/* I know there is a better way to do this, but im still learning, so i will be styling one section at a time */
+
+.main-body{
+    background-color: #f9faf8;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    padding-bottom:80px;
+
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: #f9faf8;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid  #3882f6;;
+    border-radius: 15px;;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    flex: 1;
+    gap:50px;
+    
+}
+
+.container1, .container2, .container3, .container4{
+    flex-basis: 150px;
+    color:#1f2937
+}
+
 
 .quote{
     color: #1f2937;
