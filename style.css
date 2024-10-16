@@ -1,6 +1,7 @@
 body{
     font-family: roboto;
     padding: 0;
+    margin-top:0;
     display: flex;
     flex-direction: column;
     margin-left: 200px;
@@ -101,7 +102,7 @@ img{
     justify-content: baseline;
    
 }
-/* I know there is a better way to do this, but im still learning, so i will be styling one section at a time */
+/* main-body 1 css. I know there is a better way to do this, but im still learning, so i will be styling one section at a time */
 
 .main-body{
     background-color: #f9faf8;
@@ -145,20 +146,37 @@ img{
     color:#1f2937
 }
 
+/* main-body 2 css */
 
 .quote{
     color: #1f2937;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quote-text{
     font-size: 36px;
     font-style: italic;
     font-weight: light;
-    
+    width: 51%;
+    margin-bottom:0;
+   
+
 }
+
 .author{
     color:black;
     font-weight: bold;
     font-style: normal;
     font-size: 22px;
+    display: flex;
+    margin-left: 35%;
+    padding-top:0;
+    
 }
 
 h2{
@@ -177,5 +195,5 @@ footer{
     color:#f9faf8
 }
 
-/* This is where i start to use flexbox */
+/* main-body 3 */
 
